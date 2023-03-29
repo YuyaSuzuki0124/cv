@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h1>詳細</h1>
+    <p>愛知県豊川市</p>
+    <p>07016297113</p>
+    <p>yutut.app@gmail.com</p>    
+    <!--<form>:入力フォーム,<input>:フォームの部品, 
+        method:フォームを送信する際にブラウザーが使用する HTTP メソッド, enctype:送信データのエンコード・タイプを指定する属性-->
+    <form  action="mailto:yutut.app@gmail.com" method="post" enctype="text/plain">
+        <label>UserName：</label>
+        <input type="text" name="あなたの名前">
+        <input type="color"><br>
+        <label>Email：</label>
+        <input type="email" name="あなたのEmail"><br>
+        <label>問い合わせ内容：</label><br>
+        <textarea name="問い合わせ内容" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
